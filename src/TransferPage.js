@@ -12,7 +12,7 @@ const TransferPage = () => {
                     <li><Link className="newsLink" to="/" >News test page </Link></li>
                     <li><Link className="sortLink" to="/sort"> Sorted By Id news</Link></li>
                     <li><Link className="pagLink" to="/pag">News with pagination</Link></li>
-                    <li><Link className="filter" to="/my-app/filter">News with filter</Link></li>
+                    <li><Link className="filter" to="/filter">News with filter</Link></li>
                 </ul>
             </div>
 
