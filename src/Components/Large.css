@@ -1,0 +1,11 @@
+/*Больше либо равно 992 пикселей*/
+
+body {
+    background-color: rgb(255, 0, 179);
+}
+
+.imgs{
+    height: 1000px;
+    width: 500px;
+}
+

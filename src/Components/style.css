@@ -1,0 +1,30 @@
+@import url('Extre_small.css') (max-width: 575px);
+@import url('Small.css') (min-width: 576px) and (max-width:767px);
+@import url('Medium.css') (min-width: 768px) and (max-width:991px);
+@import url('Large.css') (min-width: 992px) and (max-width:1199px);
+@import url('Extra_large.css') (min-width: 1200px) and (max-width:2400px);
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 47, 255);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

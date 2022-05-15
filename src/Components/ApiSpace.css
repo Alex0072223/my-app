@@ -1,0 +1,22 @@
+
+
+.article{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    border: 2px solid lightblue;
+}
+
+.imgs{
+    border-radius: 5%;
+    border: aliceblue;
+    height: 300px;
+    width: 400px;
+}
+
+.button_1 {
+    border-radius: 5%;
+    color: #02ffff;
+    background: #d6eae1;
+}
