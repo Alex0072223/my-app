@@ -10,9 +10,6 @@ import Error from "./Error";
 import Pag from "./Pag";
 import FilterAndFav from "./FilterAndFav";
 
-// TODO: Сделать кнпку сортировки на news + кнопка на transferPage...
-// TODO: Добавить в :id похожие новости (3, параметр )
-// TODO: Накинуть стили
 // <Route path="/" element={<TransferPage />}/>
 
 ReactDOM.render(
