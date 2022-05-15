@@ -33,8 +33,6 @@ function Pag(){
     const paginate= pageNumber => setCurrentPage(pageNumber)
 
 
-
-
     return(
         <div className="container mt-5">
             <ul>

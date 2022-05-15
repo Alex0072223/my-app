@@ -19,13 +19,11 @@ ReactDOM.render(
 
     <BrowserRouter>
         <Routes>
-
             <Route path="/" element={<Navigate to="/news" />}/> {/*Redirect*/}
             <Route path='news' element={<Outlet />}/>
                    <Route index element={<Testing/>}/>
                        <Route path="/news/:iddd" element={<NewsItem />}/>
             <Route/>
-
             <Route path="news" element={<Testing />}/>
             <Route path="about" element={<About />}/>
             <Route path="sort" element={<Sorted />}/>
