@@ -2,8 +2,9 @@ import React, {Component, useEffect, useState} from 'react';
 import {Link} from "react-router-dom";
 import Sort from "./Components/Sort";
 import Card from "./Components/Card";
+import Bookmark from "./Components/Bookmark";
 
-function FilterAndFav(){
+function Bookmarks(){
     const [newss, setNewss] = useState([])
     const [loading, setLoading] = useState(false)
     const [currentPage, setCurrentPage] = useState(1)
@@ -36,11 +37,11 @@ function FilterAndFav(){
         <div className="Testing">
             <br/>
 
-            <Card news ={currentNews} />
+            <Bookmark news ={currentNews} />
 
         </div>
 
     );
 }
 
-export default FilterAndFav;
+export default Bookmarks;

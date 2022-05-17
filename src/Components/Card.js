@@ -3,10 +3,30 @@ import React, { useState } from "react";
 function Card({ news }) {
     const [favorite, setFavorite] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
+    let idds = [];
+    let pu = [];
+    let detail = { idds };
+
 
     const addToFavorite = id => {
-        if (!favorite.includes(id)) setFavorite(favorite.concat(id));
-        console.log(id);
+        idds.push(id)
+       // Array.prototype.push.apply(pu, idds);
+       // if (!favorite.includes(id)) setFavorite(favorite.concat(id));
+
+      //  console.log(idds);
+
+
+       //// localStorage.setItem('idOf', idds);
+
+        localStorage.setItem('Detail', JSON.stringify(detail));
+       // console.log(detail);
+
+
+        // console.log(localStorage.getItem('idOf'))
+        /*let detail = { idOf:id };*/
+        /*localStorage.setItem('Detail', JSON.stringify(detail));*/
+        /*console.log(detail)*/
+        /*console.log(id);*/
 
     };
 
@@ -14,6 +34,7 @@ function Card({ news }) {
         let index = favorite.indexOf(id);
         let temp = [...favorite.slice(0, index), ...favorite.slice(index + 1)];
         setFavorite(temp);
+
     };
     let findfavorite = news.filter(news => favorite.includes(news.id));
 

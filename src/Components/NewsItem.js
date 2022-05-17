@@ -22,6 +22,11 @@ const NewsItem = () => {
 
     return (
         <div>
+            <ul>
+                <li><Link to={'/transfer'}><h5>На главную (Transfer page)</h5></Link></li>
+                <li><Link to={'/pag'}><h5>Назад</h5></Link></li>
+            </ul>
+
             <br/>
             <span>Номер космической новости: {article?.id}</span>
             <br/>

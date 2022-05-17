@@ -9,10 +9,11 @@ const TransferPage = () => {
             <div>
                 <ul>
                     <li><Link className="aboutLink" to="/about" >About author page</Link></li>
-                    <li><Link className="newsLink" to="/" >News test page </Link></li>
-                    <li><Link className="sortLink" to="/sort"> Sorted By Id news</Link></li>
-                    <li><Link className="pagLink" to="/pag">News with pagination</Link></li>
-                    <li><Link className="filter" to="/filter">News with filter</Link></li>
+                    {/*<li><Link className="newsLink" to="/" >News test page </Link></li>*/}
+                    {/*<li><Link className="sortLink" to="/sort"> Sorted By Id news</Link></li>*/}
+                    <li><Link className="newsLink" to="/">News with pagination</Link></li>
+                    {/*<li><Link className="filter" to="/filter">News with filter</Link></li>*/}
+                    <li><Link className="bookmark" to="/bookmarks">Bookmarks</Link></li>
                 </ul>
             </div>
 

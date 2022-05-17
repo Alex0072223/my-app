@@ -35,7 +35,7 @@ const ApiSpace = () => {
                 <li><Link to={'/sort'}><h5>Сортировка по id</h5></Link></li>
             </ul>
 
-            <h2>Placeholder </h2>
+            <h2>Космические новости </h2>
             <script> </script>
 
 
