@@ -54,8 +54,9 @@ function Pag(){
     return(
         <div className="">
             <ul>
-                <li><Link to={'/transfer'}><h5>На главную (Transfer page)</h5></Link></li>
-                <li><Link to={'/sort'}><h5>Сортировка по id</h5></Link></li>
+                <li><Link to={'/bookmarks'}><h5>Избранное</h5></Link></li>
+                {/*<li><Link to={'/sort'}><h5>Сортировка по id</h5></Link></li>*/}
+                <li><Link to={'/about'}><h5>Про Автора</h5></Link></li>
             </ul>
             <input
                 type="text"

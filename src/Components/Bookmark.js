@@ -48,8 +48,8 @@ function Bookmark ({ news }) {
     return (
         <div>
             <ul>
-                <li><Link to={'/transfer'}><h5>На главную (Transfer page)</h5></Link></li>
-                <li><Link to={'/pag'}><h5>Назад</h5></Link></li>
+                <li><Link to={'/about'}><h5>Про автора</h5></Link></li>
+                <li><Link to={'/'}><h5>Назад</h5></Link></li>
             </ul>
             <br/>
             <button onClick={() => clearSti}>

@@ -27,7 +27,7 @@ ReactDOM.render(
             <Route path="news" element={<Pag />}/>
             <Route path="about" element={<About />}/>
             <Route path="sort" element={<Sorted />}/>
-            <Route path="transfer" element={<TransferPage />}/>
+            {/*<Route path="transfer" element={<TransferPage />}/>*/}
            {/* <Route path="pag" element={<Pag />}/>*/}
             <Route path="filter" element={<FilterAndFav />}/>
             <Route path="bookmarks" element={<Bookmarks />}/>
